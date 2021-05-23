@@ -1,0 +1,85 @@
+.container-logo {
+  position: relative;
+  top: 50px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+}
+
+.container-body {
+  margin-top: 10%;
+  margin-left: 55%;
+  margin-right: 6%;
+  color: white;
+}
+
+.page-title {
+  text-align: left;
+  font-size: 38px;
+  font-family: "Poppins", sans-serif;
+  line-height: 84px;
+}
+
+.page-title h2 {
+  margin: 0;
+}
+
+.text {
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+body {
+  background-image: url(/images/bg-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+}
+
+#image {
+  position: absolute;
+  height: 625px;
+  margin: 100px;
+  top: 125px;
+}
+
+.register {
+  margin-left: 55%;
+  margin-right: 6%;
+  border-radius: 50%;
+}
+
+#reg-button {
+  text-align: center;
+  border-radius: 50px;
+  border-width: 0;
+  padding: 20px;
+  width: 250px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  background-color: hsl(300, 69%, 71%);
+}
+#reg-button:hover {
+  box-shadow: 1px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin-right: 135px;
+  margin-top: 200px;
+  font-size: 40px;
+}
+
+.social-icons i {
+  padding: 10px;
+  color: white;
+}
+
+.social-icons i:hover {
+  color: hsl(300, 69%, 71%);
+}
